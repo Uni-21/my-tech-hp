@@ -9,7 +9,7 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitleAlt: `Uni-21's Room`,
+    siteTitleAlt: `がらくた倉庫`,
   },
   plugins: [
     {
@@ -26,12 +26,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `がらくた倉庫`,
+        short_name: `がらくた倉庫`,
+        description: `ものづくりの実験場。ちょっとした発想から生まれたサービスたち。`,
         start_url: `/`,
-        background_color: `#141821`,
-        theme_color: `#f6ad55`,
+        background_color: `#f8f9fa`,
+        theme_color: `#42a5f5`,
         display: `standalone`,
         icons: [
           {
